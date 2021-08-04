@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 02 - POO</title>
+    <title>Aula - POO</title>
 </head>
 <body>
     <pre>
@@ -77,6 +77,16 @@
 
         // print_r($c1);
         // print_r($c2);
+
+
+        // Aula 06 B
+
+        require_once 'ControleRemoto.php';
+        $c = new ControleRemoto();
+        $c->desligar();
+        $c->abrirMenu();
+        $c->maisVolume();
+
 
     ?>
         </pre>
